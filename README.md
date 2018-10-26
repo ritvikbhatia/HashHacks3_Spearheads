@@ -1,5 +1,6 @@
 # HashHacks3_Spearheads
 IDEATION STAGE
+# Theme : IoT 
 BRIEF INTRODUCTION
 
 We are planning to make a working  model  of a complete smart city , which will include advanced subsystems like smart Waste management system ,smart Parking, smart street light ,smart pollution toll and more. We have divided our model into 4 parts so as to isolate the connections and for easier understanding .
@@ -69,7 +70,7 @@ As soon as the car arrives in front of the street light, IR sensor sends the rea
 Street light closes as soon as the car passes away from it.
 
 
-Smart Traffic Lights
+                                                     Smart Traffic Lights
 
 As we know, a lot of accidents that can be prevented still occur because the emergency vehicles such as Ambulance, Fire Brigade and Police Car often get stuck in traffic Jams at Red Lights.
 These can be easily prevented if these vehicles are allowed an easy passage through these red lights.
@@ -85,7 +86,7 @@ If the vehicle is in a case of emergency, it presses a button which sends a sign
 
 As soon as the button is released, traffic light returns to its normal functioning.
 
-Smart Parking
+                                                        Smart Parking
 
 -> In this project of smart city we are trying to reduce efforts of people to find an empty parking slot.
 Our main objective is to build up a smart car parking
@@ -96,7 +97,8 @@ People can easily just check the available slots on their mobiles through net an
 We are using a combination of Dweet.io and Freeboard.io to send the live data of each parking slot on to the server which can easily be accessed on mobile. All the details about parking slot are given(mentioned) on the site.
 Also, at the entrance of the parking lot we attached a servo motor which will allow the car to enter the Parking lot only when there is space available.
 
-Smart Waste Management System
+                                              Smart Waste Management System
+                                              
 Overfilling of dustbins make the city dirty and cause many diseases. So to solve this problem, small dustbins will be placed in different parts of a locality and a common big dustbin will be present for that area.
  When small dustbins get full, their waste will be sent to the common one via suction pipes. As soon as the larger dustbin gets filled up, a message is sent with the location of the big dustbin  upon the server at the local MCD to come and pick up the trash from the common big dustbin.
 Working
