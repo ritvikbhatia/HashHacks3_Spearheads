@@ -1,6 +1,8 @@
 # HashHacks3_Spearheads
 IDEATION STAGE
 # Theme : IoT 
+
+# Idea Name : Smart City
                                                    BRIEF INTRODUCTION
 
 We are planning to make a working  model  of a complete smart city , which will include advanced subsystems like smart Waste management system ,smart Parking, smart street light ,smart pollution toll and more. We have divided our model into 4 parts so as to isolate the connections and for easier understanding .
