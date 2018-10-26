@@ -88,19 +88,19 @@ As soon as the button is released, traffic light returns to its normal functioni
 
                                                         Smart Parking
 
--> In this project of smart city we are trying to reduce efforts of people to find an empty parking slot.
+ In this project of smart city we are trying to reduce efforts of people to find an empty parking slot.
 Our main objective is to build up a smart car parking
 -> Generally,  Unavailability of parking slots nearby or the knowledge of their location and vacancy status causes inconvenience to the people. Hence it gives rise to illegal parking and traffic.
 People can easily just check the available slots on their mobiles through net and decide where to park.
      Working
--> In this project,  We are using IR sensors to provide the reading of every slot and tell whether its occupied or not.
+ In this project,  We are using IR sensors to provide the reading of every slot and tell whether its occupied or not.
 We are using a combination of Dweet.io and Freeboard.io to send the live data of each parking slot on to the server which can easily be accessed on mobile. All the details about parking slot are given(mentioned) on the site.
 Also, at the entrance of the parking lot we attached a servo motor which will allow the car to enter the Parking lot only when there is space available.
 
                                               Smart Waste Management System
                                               
-Overfilling of dustbins make the city dirty and cause many diseases. So to solve this problem, small dustbins will be placed in different parts of a locality and a common big dustbin will be present for that area.
- When small dustbins get full, their waste will be sent to the common one via suction pipes. As soon as the larger dustbin gets filled up, a message is sent with the location of the big dustbin  upon the server at the local MCD to come and pick up the trash from the common big dustbin.
+Overfilling of dustbins make the City dirty and cause many diseases. So to solve this problem, small dustbins will be placed in different parts of a locality and a common big dustbin will be present for that area.
+ When small dustbins get full, their waste will be sent to the common one . As soon as the larger dustbin gets filled up, a message is sent with the location of the big dustbin  upon the server at the local MCD to come and pick up the trash from the common big dustbin.
 Working
 Here we have placed IR sensors in the small dustbins ,which when high will trigger the servo motor attached to the base of the dustbins ,making a way for the waste to travel through the pipeline below towards the big dustbin. 
 The big dustbin has an ultrasonic sensor attached on its lid which will give the distance between lid and waste . Live data will be sent to the server via dweet.io and freeboard.io. 
